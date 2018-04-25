@@ -1,0 +1,56 @@
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+/* change hamburger to alternative https://mdbootstrap.com/components/bootstrap-hamburger-menu/ */
+.navbar.navbar-1 .navbar-toggler-icon {
+  background-image: url("https://mdbootstrap.com/img/svg/hamburger6.svg?color=000");
+}
+
+.fill-screen {
+  background-image: url("https://source.unsplash.com/Fdhyrhb9x7o");
+  background-size: cover;
+  background-position: center;
+  min-height: 560px;
+}
+
+.homepage-link {
+  padding-top: 150px;
+  text-align: center;
+}
+
+.homepage-link h1 {
+  /*   color: #00009B; */
+  color: rgba(187, 200, 218, 0.9);
+  font-size: 3.5em;
+  font-weight: bold;
+  padding-top: 30px;
+  padding-bottom: 10px;
+  text-shadow: rgba(0, 0, 0, 0.2) 2px 6px 5px,
+    rgba(255, 255, 255, 0.4) 0 -4px 30px;
+}
+.homepage-link h2 {
+  color: #c9c9c9;
+  text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4), 0px 8px 13px rgba(0, 0, 0, 0.1),
+    0px 18px 23px rgba(0, 0, 0, 0.1);
+}
+
+.about-section {
+  margin: 30px;
+  min-height: 900px;
+  padding-top: 80px;
+}
+
+.about-section h1 {
+  text-align: center;
+  margin: 100px 40px;
+}
+
+.about-section p {
+  font-size: 18px;
+  margin: 40px 40px;
+}
+
+.about-section img {
+  margin-top: 60px;
+}
