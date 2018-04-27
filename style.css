@@ -35,22 +35,47 @@ body {
     0px 18px 23px rgba(0, 0, 0, 0.1);
 }
 
-.about-section {
+#about {
   margin: 30px;
   min-height: 900px;
   padding-top: 80px;
 }
 
-.about-section h1 {
+#about h1 {
   text-align: center;
   margin: 100px 40px;
 }
 
-.about-section p {
+#about p {
   font-size: 18px;
   margin: 40px 40px;
 }
 
-.about-section img {
+#about img {
   margin-top: 60px;
+  width: 100%;
+}
+
+
+.project-section {
+  min-height: 900px;
+  padding: 50px;
+  background-color: grey;
+  text-align: center;
+
+}
+
+.project-section h1 {
+  text-align: center;
+  margin: 60px 60px;
+  color: white;
+  text-shadow: rgba(0, 0, 0, .2) 2px 6px 5px, rgba(255, 255, 255, .4) 0 -4px 30px;
+}
+
+
+.contact-me {
+  margin: 100px;
+  text-align: center;
+  min-height: 900px;
+  padding-top: 100px;
 }
